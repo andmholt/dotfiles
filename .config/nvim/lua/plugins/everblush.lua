@@ -1,0 +1,4 @@
+return {
+  'Everblush/nvim',
+  version = '*'
+}
