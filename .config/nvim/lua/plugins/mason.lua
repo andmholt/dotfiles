@@ -27,12 +27,8 @@ return {
         function (server_name) -- default handler (optional)
           require("lspconfig")[server_name].setup {}
           -- require("lspconfig")[server_name].setup(coq.lsp_ensure_capabilities())
-        end,
-        -- Next, you can provide a dedicated handler for specific servers.
-        -- For example, a handler override for the `rust_analyzer`:
-        -- ["rust_analyzer"] = function ()
-        --    require("rust-tools").setup {}
-        -- end
+          require("lspconfig.util").root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git")
+        end
       }
     end
   }

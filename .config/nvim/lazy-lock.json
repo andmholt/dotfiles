@@ -13,10 +13,11 @@
   "cyberdream": { "branch": "main", "commit": "8f0798dcc13d633027e84b20c0ee70efe90b55aa" },
   "dashboard-nvim": { "branch": "master", "commit": "e6e33b848f0e2fe5c13f6553c568764555c390a3" },
   "kanagawa.nvim": { "branch": "master", "commit": "e5f7b8a804360f0a48e40d0083a97193ee4fcc87" },
-  "lazy.nvim": { "branch": "main", "commit": "44cd12fa2709a4de644b1d7c2773d5c59df07a66" },
-  "lualine.nvim": { "branch": "master", "commit": "e20896769ca3cd7e623f0d9f0f68c2155e1eeee2" },
+  "lazy.nvim": { "branch": "main", "commit": "d1de92dffab5a862332fdd1892889d362369c12f" },
+  "lspsaga.nvim": { "branch": "main", "commit": "6f920cfabddb9b7de5a3a4d0b7cd4f0774ae23e2" },
+  "lualine.nvim": { "branch": "master", "commit": "6a40b530539d2209f7dc0492f3681c8c126647ad" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "37a336b653f8594df75c827ed589f1c91d91ff6c" },
-  "mason.nvim": { "branch": "main", "commit": "2af3b574b68dc0273c7fb60369f3a48d5a16a857" },
+  "mason.nvim": { "branch": "main", "commit": "f96a31855fa8aea55599cea412fe611b85a874ed" },
   "mellow.nvim": { "branch": "main", "commit": "2114b30802ab7521463fefa51cd02de4b150aab2" },
   "mini.diff": { "branch": "main", "commit": "faf99c45fc6df1108eaf1da97497f0385c09afbc" },
   "mini.files": { "branch": "main", "commit": "05c861ff4066a9d20233ec776e9ec894ab9f19fe" },
@@ -47,7 +48,7 @@
   "tiny-devicons-auto-colors.nvim": { "branch": "main", "commit": "9be4af5b1bc1f26a11206ed7ce8bf44312e7941a" },
   "toggleterm.nvim": { "branch": "main", "commit": "066cccf48a43553a80a210eb3be89a15d789d6e6" },
   "tokyodark.nvim": { "branch": "master", "commit": "14bc1b3e596878a10647af7c82de7736300f3322" },
-  "tokyonight.nvim": { "branch": "main", "commit": "9714c1143287ecb9ca895a7eef0df7b67e8abcb3" },
+  "tokyonight.nvim": { "branch": "main", "commit": "78cc1ae48a26990dd028f4098892a5d6c041e194" },
   "vim": { "branch": "master", "commit": "a4f6b0abe6cad85330867a54893864e0d5c59359" },
   "vim-illuminate": { "branch": "master", "commit": "5eeb7951fc630682c322e88a9bbdae5c224ff0aa" }
 }
