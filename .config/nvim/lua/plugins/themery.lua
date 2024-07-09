@@ -18,7 +18,7 @@ return {
         },
         {
           name = 'Tokyo Night (Moon)',
-          colorscheme = 'tokyonight-moon',
+          colorscheme = 'tokyonight-moon'
           -- after = [[
           --   require('tiny-devicons-auto-colors').setup({
           --     colors = require('tokyonight.colors')
@@ -31,7 +31,7 @@ return {
         },
         {
           name = 'Tokyo Night (Night)',
-          colorscheme = 'tokyonight-night',
+          colorscheme = 'tokyonight-night'
         },
         {
           name = 'Tokyo Night (Day)',
