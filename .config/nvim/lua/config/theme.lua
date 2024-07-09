@@ -1,8 +1,8 @@
 -- Themery block
 -- This block will be replaced by Themery.
-require('tokyodark').setup()
+require('catppuccin').setup()
 
 
-vim.cmd("colorscheme tokyodark")
-vim.g.theme_id = 18
+vim.cmd("colorscheme catppuccin-frappe")
+vim.g.theme_id = 26
 -- end themery block
