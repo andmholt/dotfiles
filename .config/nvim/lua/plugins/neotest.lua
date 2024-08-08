@@ -15,5 +15,9 @@ return {
         require('neotest-vitest')({})
       }
     })
+    vim.api.nvim_set_keymap('n', 'tr', ':lua require("neotest").run.run()<CR>', { noremap = true, silent = true })
+    vim.api.nvim_set_keymap('n', 'tf', ':lua require("neotest").run.run(vim.fn.expand("%"))<CR>', { noremap = true, silent = true })
+    vim.api.nvim_set_keymap('n', 'tc', ':lua require("neotest").run.stop()<CR>', { noremap = true, silent = true })
+    vim.api.nvim_set_keymap('n', 'ta', ':lua require("neotest").run.attach()<CR>', { noremap = true, silent = true })
   end
 }
