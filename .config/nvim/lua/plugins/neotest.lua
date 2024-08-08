@@ -19,6 +19,6 @@ return {
     vim.api.nvim_set_keymap('n', 'tf', '<cmd>Neotest run file<CR>', { noremap = true, silent = true })
     vim.api.nvim_set_keymap('n', 'tc', '<cmd>Neotest stop<CR>', { noremap = true, silent = true })
     vim.api.nvim_set_keymap('n', 'ta', '<cmd>Neotest action<CR>', { noremap = true, silent = true })
-    vim.api.nvim_set_keymap('n', 'ts', '<cmd>Neotest summary<CR>', { noreamp = true, silent = true })
+    vim.api.nvim_set_keymap('n', 'ts', '<cmd>Neotest summary<CR>', { noremap = true, silent = true })
   end
 }
