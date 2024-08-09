@@ -14,10 +14,10 @@ return {
     vim.api.nvim_set_keymap('n', 'pt', '<cmd>Lspsaga peek_type_definition<CR>', { noremap = true, silent = true })
 
     -- docs
-    vim.api.nvim_set_keymap('n', 'pd', '<cmd>LspSaga hover_doc<CR>', { noremap = true, silent = true })
+    vim.api.nvim_set_keymap('n', 'pd', '<cmd>Lspsaga hover_doc<CR>', { noremap = true, silent = true })
 
     -- code actions
-    vim.api.nvim_set_keymap('n', 'pa', '<cmd>LspSaga code_action<CR>', { noremap = true, silent = true })
+    vim.api.nvim_set_keymap('n', 'pa', '<cmd>Lspsaga code_action<CR>', { noremap = true, silent = true })
 
     -- diagnostics
     vim.api.nvim_set_keymap('n', 'sd', '<cmd>Lspsaga show_line_diagnostics<CR>', { noremap = true, silent = true })
