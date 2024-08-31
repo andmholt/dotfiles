@@ -2,9 +2,7 @@ return {
   'zaldih/themery.nvim',
   version = '*',
   config = function()
-    require('config.theme')
     require('themery').setup({
-      themeConfigFile = '~/.config/nvim/lua/config/theme.lua',
       livePreview = true,
       themes = {
         {
