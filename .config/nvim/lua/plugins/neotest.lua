@@ -11,8 +11,8 @@ return {
   config = function ()
     require('neotest').setup({
       adapters = {
-        require('neotest-jest')({}),
-        require('neotest-vitest')({})
+        require('neotest-vitest')({}),
+        require('neotest-jest')({})
       }
     })
     vim.api.nvim_set_keymap('n', 'tr', '<cmd>Neotest run<CR>', { noremap = true, silent = true })
