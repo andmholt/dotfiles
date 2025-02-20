@@ -9,7 +9,9 @@ return {
 		"hrsh7th/cmp-cmdline",
 		"saadparwaiz1/cmp_luasnip",
 		"L3MON4D3/LuaSnip",
-    "hrsh7th/cmp-nvim-lsp-signature-help"
+    "hrsh7th/cmp-nvim-lsp-signature-help",
+    "olimorris/codecompanion.nvim",
+    { "MeanderingProgrammer/render-markdown.nvim", ft = { "markdown", "codecompanion" } },
 	},
   config = function()
     local cmp = require("cmp")
@@ -36,11 +38,12 @@ return {
         { name = "nvim_lsp" },
         { name = "nvim_lua" },
         { name = "luasnip" }, -- For luasnip users.
-        { name = "nvim_lsp_signature_help" } 
+        { name = "nvim_lsp_signature_help" }
         -- { name = "orgmode" },
       }, {
         { name = "buffer" },
         { name = "path" },
+        { name = "codecompanion" }
       }),
     })
 
