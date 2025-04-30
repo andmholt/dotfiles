@@ -9,13 +9,21 @@ vim.opt.number = true
 vim.opt.termguicolors = true
 vim.g.mapleader = " "
 
--- vim.api.nvim_create_autocmd("BufEnter", {
---   pattern = "*",
---   command = "silent! lcd %:p:h"
--- )
+vim.env["CODECOMPANION_TOKEN_PATH"] = vim.fn.expand("~/.config")
 
--- vim.cmd([[
---   let g:netrw_keepdir = 0
--- ]])
+local function load_env_var_from_file(var, file)
+    local f = io.open(file, "r")
+    if not f then return end
+    for line in f:lines() do
+      local k, v = line:match("^([%w_]+)%s*=%s*(.+)$")
+      if k == var then
+        vim.env[var] = v
+        break
+      end
+    end
+    f:close()
+  end
+  
+load_env_var_from_file("OPENAI_API_KEY", ".env")
 
 require("config.lazy")
