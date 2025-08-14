@@ -13,6 +13,10 @@ Sometimes just need to wipe and reset:
 rm -rf ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 ```
 
+## Avante
+
+to make avante work, might have to [manually build](https://github.com/yetone/avante.nvim/issues/612#issuecomment-2375729928)
+
 ## Telescope
 
 If telescope does not build properly (missing build dependencies), might need to uninstall + reinstall.
